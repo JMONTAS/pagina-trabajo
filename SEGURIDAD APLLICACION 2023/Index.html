@@ -1,0 +1,41 @@
+<html>
+    <title>MontasPlicationWeb </title>
+    <head> 
+        <link rel="stylesheet" href="archivo.css/Estilo.css">
+    </head>
+    <body>
+        <h1> <img src="imagenes-pagina/3dimagen.JPG" width="100" height="80">  DEPATAMENTO DE SEGURIDAD GESTION 2023</h1>
+
+
+        <div class="ventana1" id="vent">
+          
+            <div id="cerrar"><a href="javascript:cerrar()"><img src="imagenes-pagina/closed.png" width="35" height="35" ></a> </div>
+            ATM, CIT, COMPUSAFE, CASHIERS & TOOLS PEAJES
+            </div>
+                
+
+        <button id="contenedor">
+            <a class="boton1" href="javascript:abrir()">RECLAMACION CARTAS</a>    
+        </button>
+        <button id="contenedor">
+            <a class="boton2" >SALDOS BOVEDAS</a>    
+        </button>
+        <button id="contenedor">
+            <a class="boton3" >DESPACHO RUTAS</a>    
+        </button>
+        <button id="contenedor">
+            <a class="boton4" >MOSTRAR GRAFICOS</a>    
+        </button>
+
+
+<script>
+    function abrir(){
+        document.getElementById("vent").style.display="block";
+    }
+    function cerrar(){
+        document.getElementById("vent").style.display="none";
+    }
+</script>
+    </body>
+
+</html>
